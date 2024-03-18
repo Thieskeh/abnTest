@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Vegetarian Pizza",
+    "isVegetarian": true,
+    "servings": 2,
+    "instructions": "Spread the dough and add toppings. Bake for 20 minutes.",
+    "ingredients": [
+      {
+        "name": "dough"
+      },
+      {
+        "name": "tomato sauce"
+      },
+      {
+        "name": "mozzarella cheese"
+      },
+      {
+        "name": "mushrooms"
+      },
+      {
+        "name": "bell peppers"
+      }
+    ]
+  },
+  {
+    "name": "Chicken Curry",
+    "isVegetarian": false,
+    "servings": 4,
+    "instructions": "Cook chicken, add spices and coconut milk. Simmer for 30 minutes.",
+    "ingredients": [
+      {
+        "name": "chicken breast"
+      },
+      {
+        "name": "coconut milk"
+      },
+      {
+        "name": "curry powder"
+      },
+      {
+        "name": "rice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mysql-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: abn_password
+      MYSQL_DATABASE: recipe_manager
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    restart: on-failure
+
+volumes:
+  mysql-data:
